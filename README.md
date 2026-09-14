@@ -1,1 +1,0 @@
-# newtonsapple.nis
