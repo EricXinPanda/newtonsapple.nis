@@ -1,0 +1,691 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#8c0e06">
+
+<title>Staff — Newton's Apple</title>
+
+<meta
+  name="description"
+  content="Newton's Apple — NIS Chiang Mai student-led STEM research, magazine, talks and innovation community."
+>
+
+<link rel="stylesheet" href="assets/style.css">
+
+<style>
+/* =========================================================
+   STAFF PAGE — PHOTO SUPPORT
+   You may move this block into assets/style.css later.
+========================================================= */
+
+.person-photo {
+  aspect-ratio: 1 / 1.08;
+  background: #efefec;
+  overflow: hidden;
+  position: relative;
+}
+
+.person-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+  filter: grayscale(100%);
+  transition:
+    transform 0.35s ease,
+    filter 0.35s ease;
+}
+
+/* Hide the default placeholder silhouette when a real image exists */
+.person-photo:has(img)::before,
+.person-photo:has(img)::after {
+  display: none;
+}
+
+/* Editorial-style hover effect */
+.person:hover .person-photo img {
+  transform: scale(1.025);
+  filter: grayscale(0%);
+}
+
+/* Optional: slightly emphasize the Website Manager card */
+.person.manager {
+  border-top-color: #8c0e06;
+}
+</style>
+</head>
+
+<body>
+
+
+<!-- =========================================================
+     PAGE LOADER
+========================================================= -->
+
+<div class="page-loader" aria-hidden="true">
+
+  <div class="loader-inner">
+
+    <div class="loader-mark"></div>
+
+    <div class="loader-word">
+      Newton's <em>Apple</em>
+    </div>
+
+    <div class="loader-rule"></div>
+
+    <div class="loader-kicker">
+      STEM · Innovation · Community
+    </div>
+
+  </div>
+
+</div>
+
+
+<!-- =========================================================
+     UTILITY BAR
+========================================================= -->
+
+<div class="utility">
+
+  <div class="wrap">
+
+    <div class="utility-left">
+      <a href="about.html">Newton's Apple</a>
+      <span>NIS Chiang Mai</span>
+    </div>
+
+    <div class="utility-right">
+      <a href="staff.html">Staff</a>
+      <a href="submit.html">Publish with us</a>
+    </div>
+
+  </div>
+
+</div>
+
+
+<!-- =========================================================
+     MASTHEAD
+========================================================= -->
+
+<header class="masthead">
+
+  <div class="wrap">
+
+    <a class="wordmark" href="index.html">
+
+      Newton's
+      <span class="apple">Apple</span>
+
+      <small>
+        STEM · Innovation · Community
+      </small>
+
+    </a>
+
+    <div class="mast-meta">
+
+      <b>
+        Student-led science & innovation
+      </b>
+
+      Nakornpayap International School<br>
+      Chiang Mai, Thailand
+
+    </div>
+
+  </div>
+
+</header>
+
+
+<!-- =========================================================
+     NAVIGATION
+========================================================= -->
+
+<nav class="main-nav">
+
+  <div class="wrap">
+
+    <div class="nav-links">
+
+      <a href="index.html">
+        Home
+      </a>
+
+      <a href="research.html">
+        Research
+      </a>
+
+      <a href="magazine.html">
+        Magazine
+      </a>
+
+      <a href="talks.html">
+        STEM Talks
+      </a>
+
+      <a class="active" href="staff.html">
+        Staff
+      </a>
+
+      <a href="about.html">
+        About
+      </a>
+
+      <a href="submit.html">
+        Publish
+      </a>
+
+    </div>
+
+    <div class="nav-tools">
+
+      <button
+        class="search-toggle"
+        aria-label="Search"
+      >
+        ⌕
+      </button>
+
+    </div>
+
+  </div>
+
+</nav>
+
+
+<!-- =========================================================
+     MAIN CONTENT
+========================================================= -->
+
+<main class="container">
+
+
+<!-- =========================================================
+     PAGE HEADER
+========================================================= -->
+
+<section class="page-hero">
+
+  <div class="kicker">
+    ABOUT THE PUBLICATION
+  </div>
+
+  <h1>
+    Staff
+  </h1>
+
+  <p>
+    PAGE DESCRIPTION
+  </p>
+
+</section>
+
+
+<!-- =========================================================
+     STAFF INTRODUCTION
+========================================================= -->
+
+<section class="section">
+
+  <div class="staff-intro">
+
+    <div>
+
+      <div class="red-rule"></div>
+
+      <h2
+        class="serif"
+        style="font-size:42px;font-weight:500"
+      >
+        Built by students,<br>
+        supported by educators.
+      </h2>
+
+    </div>
+
+    <div class="staff-note">
+      STAFF / ORGANIZATION DESCRIPTION
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- =========================================================
+     DIGITAL & EDITORIAL
+========================================================= -->
+
+<section class="section">
+
+  <div class="section-label">
+    Digital & Editorial
+  </div>
+
+  <div class="staff-grid">
+
+
+    <!-- WEBSITE MANAGER -->
+
+    <article class="person manager">
+
+      <div class="person-photo">
+
+        <img src="/staff pictures/ericxin.JPG" alt="Eric Xin">
+
+      </div>
+
+      <div class="role">
+        Website Manager
+      </div>
+
+      <h3>
+        Huaze (Eric) Xin
+      </h3>
+
+      <p>
+        Website design, development, digital publishing and maintenance of Newton's Apple.
+      </p>
+
+    </article>
+
+
+    <!-- EDITOR -->
+
+    <article class="person">
+
+      <div class="person-photo">
+
+        <!--
+        Replace with:
+        <img src="assets/images/editor.jpg" alt="EDITOR NAME">
+        -->
+
+      </div>
+
+      <div class="role">
+        ROLE
+      </div>
+
+      <h3>
+        NAME
+      </h3>
+
+      <p>
+        DESCRIPTION
+      </p>
+
+    </article>
+
+
+    <!-- RESEARCH EDITOR -->
+
+    <article class="person">
+
+      <div class="person-photo">
+
+        <!--
+        Replace with:
+        <img src="assets/images/research-editor.jpg" alt="RESEARCH EDITOR NAME">
+        -->
+
+      </div>
+
+      <div class="role">
+        ROLE
+      </div>
+
+      <h3>
+        NAME
+      </h3>
+
+      <p>
+        DESCRIPTION
+      </p>
+
+    </article>
+
+  </div>
+
+</section>
+
+
+<!-- =========================================================
+     FACULTY ADVISORS
+========================================================= -->
+
+<section class="section">
+
+  <div class="section-label">
+    Faculty Advisors
+  </div>
+
+  <div class="staff-grid">
+
+
+    <!-- FACULTY ADVISOR 01 -->
+
+    <article class="person">
+
+      <div class="person-photo">
+
+        <img src="dr-insha-javid.webp" alt="Dr. Insha">
+
+      </div>
+
+      <div class="role">
+        FACULTY ADVISOR
+      </div>
+
+      <h3>
+        Dr. Insha Javid
+      </h3>
+
+      <p>
+        High School Biology Teacher
+      </p>
+
+    </article>
+
+
+    <!-- FACULTY ADVISOR 02 -->
+
+    <article class="person">
+
+      <div class="person-photo">
+
+        <img src="/staff pictures/dr-naji-mahidi.webp" alt="Dr. Naji">
+
+      </div>
+
+      <div class="role">
+        FACULTY ADVISOR
+      </div>
+
+      <h3>
+        Dr. Naji Mahidi
+      </h3>
+
+      <p>
+        High School Physics Teacher
+      </p>
+
+    </article>
+
+
+    <!-- FACULTY ADVISOR 03 -->
+
+    <article class="person">
+
+      <div class="person-photo">
+
+        <img src="/staff pictures/colin-mercer.webp" alt="Mr. Colin">
+
+      </div>
+
+      <div class="role">
+        FACULTY ADVISOR
+      </div>
+
+      <h3>
+        Mr. Colin Mercer
+      </h3>
+
+      <p>
+        High School Chemistry Teacher
+      </p>
+
+    </article>
+
+  </div>
+
+</section>
+
+
+<!-- =========================================================
+     OPTIONAL CONTRIBUTORS SECTION
+========================================================= -->
+
+<section class="section">
+
+  <div class="section-label">
+    Contributors
+  </div>
+
+  <div class="staff-grid">
+
+
+    <article class="person">
+
+      <div class="person-photo">
+
+        <!--
+        Example:
+        <img src="assets/images/contributor-1.jpg" alt="CONTRIBUTOR NAME">
+        -->
+
+      </div>
+
+      <div class="role">
+        ROLE
+      </div>
+
+      <h3>
+        NAME
+      </h3>
+
+      <p>
+        DESCRIPTION
+      </p>
+
+    </article>
+
+
+    <article class="person">
+
+      <div class="person-photo"></div>
+
+      <div class="role">
+        ROLE
+      </div>
+
+      <h3>
+        NAME
+      </h3>
+
+      <p>
+        DESCRIPTION
+      </p>
+
+    </article>
+
+
+    <article class="person">
+
+      <div class="person-photo"></div>
+
+      <div class="role">
+        ROLE
+      </div>
+
+      <h3>
+        NAME
+      </h3>
+
+      <p>
+        DESCRIPTION
+      </p>
+
+    </article>
+
+  </div>
+
+</section>
+
+
+</main>
+
+
+<!-- =========================================================
+     FOOTER
+========================================================= -->
+
+<footer class="site-footer">
+
+  <div class="container footer-top">
+
+    <div class="footer-word">
+      Newton's <span>Apple</span>
+    </div>
+
+    <div class="footer-cols">
+
+
+      <div>
+
+        <h4>
+          Explore
+        </h4>
+
+        <a href="research.html">
+          Research
+        </a>
+
+        <a href="magazine.html">
+          Magazine
+        </a>
+
+        <a href="talks.html">
+          STEM Talks
+        </a>
+
+      </div>
+
+
+      <div>
+
+        <h4>
+          Community
+        </h4>
+
+        <a href="staff.html">
+          Staff
+        </a>
+
+        <a href="about.html">
+          About
+        </a>
+
+        <a href="submit.html">
+          Publish
+        </a>
+
+      </div>
+
+
+      <div>
+
+        <h4>
+          Subjects
+        </h4>
+
+        <a href="research.html">
+          SUBJECT
+        </a>
+
+        <a href="research.html">
+          SUBJECT
+        </a>
+
+        <a href="research.html">
+          SUBJECT
+        </a>
+
+      </div>
+
+
+      <div>
+
+        <h4>
+          Institution
+        </h4>
+
+        <span class="meta">
+          Nakornpayap International School<br>
+          Chiang Mai, Thailand
+        </span>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <div class="container footer-bottom">
+
+    <span>
+      © 2026 Newton's Apple
+    </span>
+
+    <span>
+      Student-led · NIS Chiang Mai
+    </span>
+
+  </div>
+
+</footer>
+
+
+<!-- =========================================================
+     SEARCH PANEL
+========================================================= -->
+
+<div
+  class="search-panel"
+  aria-hidden="true"
+>
+
+  <div class="search-inner">
+
+    <button
+      class="search-close"
+      aria-label="Close search"
+    >
+      ×
+    </button>
+
+    <h2>
+      Search Newton's Apple
+    </h2>
+
+    <input
+      id="siteSearch"
+      type="search"
+      placeholder="SEARCH..."
+    >
+
+    <div class="search-results">
+
+      <p class="meta">
+        SEARCH RESULT / DESCRIPTION
+      </p>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+<script src="assets/site.js"></script>
+
+</body>
+</html>
